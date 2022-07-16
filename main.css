@@ -1,0 +1,43 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: red;
+   padding: 0;
+   margin: 0;
+}
+
+article {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto 0 auto;
+    height: 100vh;
+   padding: 0 5px;
+
+    
+}
+
+.quoteBlocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.quoteCircle {
+    margin: auto;
+    text-align: center;
+    background-color: tomato;
+    padding: 10px 20px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid chartreuse;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px black;
+}
+
